@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #aaaaaa;
+  left: 0px;
+}
+li{
+  list-style: none;
+}
+p{
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #666666;
+}
+button{
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #666666;
+  background: #ffffff;
+}
+#root{
+
+}
+#middle{
+  width: 500px;
+  height: 700px;
+  margin: auto;
+  background-color: #ffffff;
+  border: solid #aaaaaa 1px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#result{
+  height: 120px;
+  width: 500px;
+}
+.small{
+  padding-left: 12px;
+  width: 125px;
+  height: 110px;
+  border: solid #ddd 1px;
+  float: left;
+}
+.double{
+  padding-left: 14px;
+  width: 250px;
+  height: 110px;
+  border: solid #ddd 1px;
+  float: left;
+}
+.onePointFive{
+  padding-left: 16px;
+  width: 187px;
+  height: 110px;
+  border: solid #ddd 1px;
+  float: left;
+}
